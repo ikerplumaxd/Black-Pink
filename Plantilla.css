@@ -1,0 +1,90 @@
+.ImagenLogo{
+border-radius:36%;
+width: 40px;
+height: 40px;
+}
+.Titulo{
+  font-size:12px;
+  color:#863e62;
+  align-content: center;
+
+}
+.Cuerpo{
+  position: relative;
+   display: inline-block;
+   text-align: center;
+}
+.Texto{
+  position: absolute;
+  top: 50%;
+    left: 50%;
+        transform: translate(-50%, -50%);
+        color:Black;
+}
+.TReg{
+  font-size:25px;
+  color:white;
+  top:20%;
+}
+
+.etiqueta{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.Envio{
+  background-color:rgb(228, 197, 84);
+  border-style: solid;
+  border-color: rgb(228, 197, 84);
+  align-content: center;
+  height: 50px;
+  width: 400px;
+}
+.Formato{
+  height: 50px;
+  width: 400px;
+  background: white;
+  border-style: none;
+}
+::placeholder{
+  color:rgb(189, 189, 189);
+  text-align: center;
+}
+.FormPequeño{
+  height: 50px;
+  width: 100px;
+  background:white;
+  border-style: none;
+}
+.Sexo{
+  width:180px;
+  height: 50px;
+  border-style: none;
+  position: relative;
+}
+input{
+  text-align: center;
+}
+.Color{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: none;
+  background-color:#f9bed3;
+}
+.Ropa{
+  width: 90%;
+}
+.Centro{
+  align-items: center;
+  font-size: 30px;
+}
+.Comprar{
+  width: 80%;
+  height: 75px;
+  background-color: rgb(0, 0, 0);
+}
+input[type="radio"]{
+  opacity: 0;
+}
