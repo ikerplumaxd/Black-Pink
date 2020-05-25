@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="formulario";
+$db="BlackAndPink";
 $con=mysqli_connect($host,$user,$pass,$db);
     $NomCompleto=$_POST["NomCompleto"];
     $Año=$_POST["Año"];
@@ -16,8 +16,10 @@ $con=mysqli_connect($host,$user,$pass,$db);
 $insertar="INSERT INTO datos (NomCompleto,Año,Mes,Día,Correo,HM,Telefono,Contraseña)  VALUES('$NomCompleto','$Año','$Mes','$Día','$Correo','$HM','$Telefono','$Contraseña')";
 $query=mysqli_query($con,$insertar);
 if(!$query){
-echo "hubo un error";}
-else {
-  echo "todo bien :D";
-}
-?>
+  echo "hubo un error";}
+  else {
+    echo"<Script language='Javascript' type='text/javascript'>
+    window.location='\index.html'
+    </Script>";
+  }
+  ?>

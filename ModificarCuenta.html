@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Registro</title>
+    <title>Edita tu cuenta</title>
     <link rel="stylesheet" href="Plantilla.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -22,10 +21,11 @@
     <div class="container-fluid">
         <div>
           <div align="center">
-                    <b class="TReg">Registrate</b>
+                    <b class="TReg">Reescribe tus datos usando el mismo nombre</b>
           </div>
-            <form action="Datos.php" method="POST" id="Formulario" name="Formulario" method="POST">
+            <form action="Modificar.php" method="POST" id="Formulario" name="Formulario" method="POST">
               <div class="etiqueta">
+                <input type="email" name="Correo" id="Correo" placeholder="Correo electronico" class="Formato"><p></p>
               <input type="text" name="NomCompleto" id="NomCompleto" placeholder="Nombre Completo" class="Formato">
               <p></p>
               <div class="row row-cols-3">
@@ -34,8 +34,6 @@
                 <div class="col"><input type="number" id="Día"name="Día" placeholder="Día" min="01" max="31"class="FormPequeño"></div>
               </div>
               <p></p>
-                <input type="email" name="Correo" id="Correo" placeholder="Correo electronico" class="Formato">
-                <p></p>
                 <div class="row row-cols-2">
 
                   <div class="col"><div class="Sexo" style="background-color:rgb(18, 115, 204);"><input type="radio" name="HM" id="Hombre" value="Hombre" class="Sexo"><p class="etiqueta" style="color:white;">Hombre</p></div></div>
@@ -45,14 +43,8 @@
                 <input type="tel" name="Telefono" id="Telefono"class="Formato" placeholder="Telefono">
                 <p></p>
                 <input type="password" name="Contraseña" id="Contraseña" class="Formato" placeholder="Contraseña"><p></p>
-                <button type="submit" value="enviar" class="Envio" name="Enviar">Listo</button>
-                <p>
-
-                </p>
-                  <a href="\Pagina\ModificarCuenta.html"> <button type="button" value="cambiar" class="Envio" name="Cambiar">Modificar cuenta</button></a>
-            </form>
-
-
+                <button type="submit" value="cambiar" class="Envio" name="Cambiar">Modificar cuenta</button>
+            </div>
             <script src="Validacion.js"></script>
         </div>
       </div>

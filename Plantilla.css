@@ -98,3 +98,23 @@ a:hover {
   font-size:20px;
   color:rgb(0, 0, 0);
 }
+.Formato2{
+  height: 250px;
+  width: 400px;
+  background: white;
+  border-style: none;
+}
+textarea{
+  text-align:center;
+}
+.Tabla{
+  width: 50%;
+}
+.Contenedor{
+  width: 70%;
+  height: 70%;
+  border-style: solid;
+  border-color:BLACK;
+  top: 50%;
+  left: 50%;
+}
